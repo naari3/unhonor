@@ -15,7 +15,7 @@ fn main() -> Result<(), Box<dyn std::error::Error>> {
     println!("YO");
     let seds = link_resource_to_seds(link_resource)?;
     for (i, sed) in seds.iter().enumerate() {
-        let mut file = File::create(format!("{}{}{}", "tmp/", i, ".sed"))?;
+        let mut file = File::create(format!("{}{}{}", "tmp/seds/", i, ".sed"))?;
         let sed_size = sed.len();
         file.write_all(sed)?;
         file.flush()?;

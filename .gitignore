@@ -1,2 +1,4 @@
 /target
-/tmp
+/tmp/**/*
+!/tmp/seds
+!/tmp/seds/.keep
