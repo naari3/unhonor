@@ -2,3 +2,6 @@
 /tmp/**/*
 !/tmp/seds
 !/tmp/seds/.keep
+!/tmp/wavs
+!/tmp/wavs/.keep
+/test
